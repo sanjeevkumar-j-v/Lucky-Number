@@ -2,16 +2,26 @@
 <html>
   <head>
     <title><%= title %></title>
-    <meta charset="utf-8" device-width="1" />
+    <!-- <meta charset="utf-8" device-width="1" /> -->
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <style>
+        body {
+            width: 100vw;
+            margin: 0;
+        }
         .levels {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
+        .question {
+            width: 50%;
+            margin: 30px;
+        }
         .answer {
+            margin: 30px;
+            width: 50%;
             padding: 30px;
         }
         hr {
@@ -23,7 +33,7 @@
   <body>
 
     <section>
-        <h1><u>ANSWERS Of CITRUS CRACKER</u></h1>
+        <h1><u>ANSWERS OF CITRUS CRACKER</u></h1>
 
         <div class="levels">
             <div class="question">
